@@ -12,7 +12,7 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 5px 100px;
+  padding: 5px 48px;
 }
 
 .hero-section {
@@ -59,6 +59,8 @@ a {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  border: yellow solid 4px;
+  margin: 0;
 }
 
 .secondary-text {
