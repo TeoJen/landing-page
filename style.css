@@ -47,7 +47,6 @@ a {
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
-  border: red solid 4px;
 }
 
 .hero-text-container {
@@ -55,14 +54,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: blue solid 4px;
 }
 
 .hero-title {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
-  border: yellow solid 4px;
   margin: 0;
 }
 
@@ -86,7 +83,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: green solid 4px;
 }
 
 .hero-image {
