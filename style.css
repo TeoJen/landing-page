@@ -13,6 +13,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 5px 48px;
+  min-width: 300px;
 }
 
 .hero-section {
@@ -45,6 +46,7 @@ a {
   padding: 70px 0;
   gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
   border: red solid 4px;
 }
 
@@ -91,4 +93,5 @@ a {
   width: 100%;
   height: auto;
   object-fit: contain;
+  min-width: 200px;
 }
