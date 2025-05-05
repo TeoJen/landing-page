@@ -91,3 +91,39 @@ a {
   object-fit: contain;
   min-width: 200px;
 }
+
+.info-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-tiles-container {
+  display: flex;
+  border: red solid 3px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-tile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: green solid 3px;
+  width: 100px;
+}
+
+.info-tile-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: blue solid 3px;
+}
+
+.tile-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  min-width: 100px;
+}
