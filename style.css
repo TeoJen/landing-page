@@ -94,7 +94,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: blue solid 3px;
   padding: 24px 0px;
 }
 
@@ -107,7 +106,6 @@ a {
 
 .info-tiles-container {
   display: flex;
-  border: red solid 3px;
   flex-wrap: wrap;
   gap: 20px;
   padding-bottom: 100px;
@@ -117,8 +115,7 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  border: green solid 3px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
 }
@@ -131,4 +128,5 @@ a {
 
 .info-tile-text {
   width: 200px;
+  padding: 10px;
 }
