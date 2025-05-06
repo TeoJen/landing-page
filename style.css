@@ -170,6 +170,8 @@ a {
   display: flex;
   flex: 3;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
   color: #e5e7eb;
 }
 
