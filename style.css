@@ -11,7 +11,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 48px;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 .hero-section {
@@ -70,10 +70,13 @@ a {
   background-color: #3882f6;
   color: #e5e7eb;
   font-weight: 700;
-  margin-right: auto;
   border: none;
   padding: 5px 20px;
   border-radius: 6px;
+}
+
+.hero-button {
+  margin-right: auto;
 }
 
 .hero-image-container {
@@ -156,23 +159,38 @@ a {
 }
 
 .cta-container {
-  border: red solid 3px;
-  /* background-color: #3882F6; */
+  background-color: #3882f6;
   margin: 100px 0px;
   display: flex;
+  border-radius: 10px;
+  padding: 24px 48px;
 }
 
 .cta-text-container {
-  border: green solid 3px;
   display: flex;
+  flex: 3;
   flex-direction: column;
+  color: #e5e7eb;
+}
+
+.cta-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-text {
+  font-weight: 300;
 }
 
 .cta-button-container {
   display: flex;
+  flex: 1;
   align-items: center;
-  margin: auto;
+  min-width: fit-content;
 }
 
 .cta-button {
+  border: #e5e7eb solid 1px;
+  margin-left: auto;
+  flex-shrink: 0;
 }
